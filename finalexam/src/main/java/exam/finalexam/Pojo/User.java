@@ -20,6 +20,9 @@ import lombok.Setter;
 @Table(name = "User Table")
 public class User {
 
+    public User(int id2, String name2, String address2, int i, int driverLicenseNo2, boolean insurance2, Object pickUp2,
+            Object dropOff2) {
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -28,7 +31,7 @@ public class User {
     private String address;
     private String phone;
     private Integer driverLicenseNo;
-    private boolean damageWavier;
+    private boolean insurance;
     private LocalDateTime pickUp;
     private LocalDateTime dropOff;
 

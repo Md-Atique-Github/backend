@@ -29,6 +29,6 @@ public class Car {
     private Integer rentalFee;
     @Column(columnDefinition= "TEXT")
     private String longDescription;
-
+   
     
 }
