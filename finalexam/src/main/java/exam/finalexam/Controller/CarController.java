@@ -46,7 +46,5 @@ public class CarController {
     public ResponseEntity<String> deleteById(@PathVariable Integer id) {
         carRepo.deleteById(id);
         return ResponseEntity.ok().body("Deleted successfully");
-}
-
-    
+}  
 }
