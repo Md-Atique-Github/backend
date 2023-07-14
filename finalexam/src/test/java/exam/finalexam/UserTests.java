@@ -20,32 +20,10 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-// import exam.finalexam.Controller.CarController;
 import exam.finalexam.Controller.UserController;
-// import exam.finalexam.Pojo.Car;
 import exam.finalexam.Pojo.User;
-// import exam.finalexam.Repository.CarRepo;
 import exam.finalexam.Repository.UserRepo;
-
-
-// package com.example.finalexam;
-
-// import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-
-// import exam.finalexam.Controller.UserController;
-// import exam.finalexam.Pojo.User;
-// import exam.finalexam.Repository.UserRepo;
-// import com.fasterxml.jackson.databind.ObjectMapper;
-
-// import static org.mockito.Mockito.when;
-// import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
-// import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
-
-
 
 
 @SpringBootTest

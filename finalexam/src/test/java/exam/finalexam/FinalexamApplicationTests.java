@@ -20,15 +20,10 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import exam.finalexam.Controller.CarController;
 import exam.finalexam.Pojo.Car;
 import exam.finalexam.Repository.CarRepo;
-
-
-
 
 @SpringBootTest
 class FinalexamApplicationTests {
