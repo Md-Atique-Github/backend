@@ -34,5 +34,4 @@ public class User {
     private boolean insurance;
     private LocalDateTime pickUp;
     private LocalDateTime dropOff;
-
 }
