@@ -20,9 +20,9 @@ import lombok.Setter;
 @Table(name = "User Table")
 public class User {
 
-    public User(int id2, String name2, String address2, int i, int driverLicenseNo2, boolean insurance2, Object pickUp2,
-            Object dropOff2) {
-    }
+    // public User(int id2, String name2, String address2, int i, int driverLicenseNo2, boolean insurance2, Object pickUp2,
+    //         Object dropOff2) {
+    // }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
